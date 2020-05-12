@@ -3,7 +3,7 @@ This is a simplistic sample of the news aggregator I implemented for CLSA. The s
 
 The project could have been improved by using:
 1. Multithreading. Since the program scrapes various websites, the scraping could have been done concurrently and writing the final data could have been locked. Could have used a basic read-write monitor lock to allow multiple scrapers but only a single writer.
-2. Better final delivery: The project could have been delivered in a way that is more intuitive and usable by people having a non-technical background.
+2. Better final delivery: The project could have been delivered in a way that is more intuitive and usable by people having a non-technical background: either by making a User interface or many deplying it on a server to run at fixed periods.
 3. Sentiment analysis: can implement ML algorithms for news sentiment ananlysis.
 4. Minor changes like reading from a email recipient list and prompting for sender email and password at runtime.
 
