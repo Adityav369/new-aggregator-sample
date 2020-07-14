@@ -1,9 +1,9 @@
 # news-aggregator-sample
-This is a simplistic sample of the news aggregator I implemented for CLSA. The setup and run guide is given in the repository. The project only has 1 news website and 1 market sector. It was used to train employees in basic web scraping and data processing using python to help further the automation efforts at the firm. The comprehensive project is the property of the organization and cannot be shared online. It includes multiple sectors, and multiple news websites. It also looks for keywords in the title and removes if the news is not important.
+This is a simple sample for web scraping in Python. The setup and run guide is given in the repository.
 
 The project could have been improved by using:
 1. Multithreading. Since the program scrapes various websites, the scraping could have been done concurrently and writing the final data could have been locked. Could have used a basic read-write monitor lock to allow multiple scrapers but only a single writer.
-2. Better final delivery: The project could have been delivered in a way that is more intuitive and usable by people having a non-technical background: either by making a User interface or many deplying it on a server to run at fixed periods.
+2. Better final delivery: The project could have been delivered in a way that is more intuitive and usable by people having a non-technical background: either by making a User interface.
 3. Remove similar news: can implement an NLP algorithm to determine similarity between news and can cut out repitive news.
 4. Sentiment analysis: can implement ML algorithms for news sentiment ananlysis.
 5. Minor changes like reading from a email recipient list and prompting for sender email and password at runtime.
